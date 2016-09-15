@@ -1,7 +1,7 @@
 # patrick-luizVinicius
 Projeto do semestre
 
-Tema: Site de Fotos de Gato (Blog comunitario, similar ao 9GAG e relativos)
+Tema: Site de Fotos de Gato (Blog comunitario, similar ao 9GAG e relativos).
 
 Público-alvo: Pessoas que querem compartilhar fotos de seus gatos, pessoas que querem ver fotos de gatos.
 
