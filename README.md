@@ -1,7 +1,7 @@
 # patrick-luizVinicius
 Projeto do semestre
 Patrick Andrade 31527914
-Luiz Vinicius Pinheiro 31477054
+Luiz Vinicius Pinheiro 31477054.
 
 Tema: Site de Fotos de Gato (Blog comunitario, similar ao 9GAG e relativos)
 
@@ -17,6 +17,6 @@ Usuário Logado: Fazer novas postagens (a cada 30 minutos visando evitar postage
 
 Usuário Visitante: Apenas visualizar postagens e comentarios
 
-Mapa de Navegação:
+Mapa de Navegação: MAPA URL (https://drive.google.com/file/d/0By-si5djj8fXeVlmZ2FFcDdvbUk/view)
 
 Wireframe:
