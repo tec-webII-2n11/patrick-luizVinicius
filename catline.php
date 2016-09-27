@@ -15,7 +15,7 @@
      
         
         <div class="corpo">
-            <h2>AQUI É A HOME!</h2>
+            <h2>AQUI SERA A TIMELINE</h2>
         </div>
         
         

@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    background-color: #F3F3F3;
+}
+
+/* nav */
+header{
+    width: 70%;
+    margin-left: 15%;
+}
+
+nav {
+    left: 0;
+    background-image: url("Degrade_2.png");
+    height: 42px;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} /* COMO CENTRALIZAR? */
+
+nav ul a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+}
+
+nav ul li{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+/*nav ul li .itemBusca{
+    float: right;
+}*/
+
+nav ul li a:hover{
+    color: #333333;
+}
+
+/* nav */
+/* footer */
+.rodape{
+    width: 100%;
+    height: 25px;
+    background-color: #202020;
+}
+
+.rodape p{
+    color: #F3F3F3;
+    margin-top: 4px;
+}
+
+.rodape .ltexto{
+    margin-left: 40%;
+	float: left;
+	font-size: 14px;
+}
+
+.rodape .rtexto{
+    margin-right: 40%;
+	float: right;
+}
+
+.rodape .divtexto{
+    float: left;
+    margin-left: 5%;
+}
+
+.rodape .rtexto a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #F3F3F3;
+}
+
+.rodape .rtexto a:hover{
+    text-decoration: underline;
+}
+/* footer */
+/* corpo */
+.corpo{
+    width: 70%;
+    margin-left: 15%;
+    background-color: #ffffff;
+    margin-top: -25px;
+}

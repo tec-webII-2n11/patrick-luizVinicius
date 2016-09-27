@@ -15,7 +15,7 @@
      
         
         <div class="corpo">
-            <h2>AQUI É A HOME!</h2>
+            <h2>AQUI TEMOS OS TERMOS DE USO!</h2>
         </div>
         
         
