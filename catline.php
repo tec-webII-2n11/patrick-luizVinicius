@@ -6,11 +6,12 @@
         <meta charset="utf-8">
         <meta name="Author" content="Luiz Vinicius A. Pinheiro - 31477054">
         <meta name="Author" content="Patrick Andrade - 31527914">
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <?php include "includes/head.inc"; ?>
     
     </head>
 
     <body>
+        <?php include "includes/matbody.inc"; ?>
         <?php include "includes/header.inc"; ?>
      
         

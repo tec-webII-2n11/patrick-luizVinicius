@@ -1,19 +1,24 @@
 <header>
+    <div class="container">
     <img src="img/Logo_small.png" alt="Banner" title="CatBag - Melhorando o seu dia!">
-    <nav id="menu">
-            <ul>
-                <li class="itemMenu"><a href="index.php">HOME</a></li>
+    </div>
+    
+     <nav>
+    <div class="nav-wrapper brown darken-4">
+    <div class="container">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="catline.php">CATLINE</a></li>
+        <li><a href="conta.php">CONTA</a></li>
+        <li>
+            <form action="http://google.com/search">
+                <input type="search" name="q" placeholder="Pesquisar...">
                 
-                <li class="itemMenu"><a href="catline.php">CATLINE</a></li>
-                
-                <li class="itemMenu" class="menuconta"><a href="conta.php">CONTA</a></li> <!-- Caso usuario esteja logado aparecera o nome de usuario -->
-                
-                <li class="itemBusca" class="busca">
-                                <form action="http://google.com/search">
-                                    <input type="search" name="q" placeholder="Pesquisar...">
-                                    <input type="submit" value="Meow!">
-                                </form></li>
-            </ul>        
-    </nav>
+            </form></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
 </header>
 
