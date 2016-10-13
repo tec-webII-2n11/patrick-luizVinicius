@@ -19,4 +19,4 @@ Usuário Visitante: Apenas visualizar postagens e comentarios
 
 Mapa de Navegação: MAPA URL (https://drive.google.com/file/d/0By-si5djj8fXeVlmZ2FFcDdvbUk/view)
 
-Wireframe:
+Wireframe: https://wireframe.cc/iMWqtk 
