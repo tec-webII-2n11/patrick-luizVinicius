@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title> CatBag </title>
+        <title> CatBag - Conta </title>
         <meta charset="utf-8">
         <meta name="Author" content="Luiz Vinicius A. Pinheiro - 31477054">
         <meta name="Author" content="Patrick Andrade - 31527914">
@@ -15,8 +15,8 @@
         <?php include "includes/header.inc"; ?>
      
         
-        <div class="corpo">
-            <h2>AQUI SERA O CADASTRO!</h2>
+        <div class = "container">
+            <h2>AQUI SERA O PERFIL!</h2>
         </div>
         
         

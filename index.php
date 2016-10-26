@@ -15,7 +15,7 @@
         <?php include "includes/header.inc"; ?>
      
         
-        <div>
+        <div class = "container">
             <h2>AQUI É A HOME!</h2>
         </div>
         

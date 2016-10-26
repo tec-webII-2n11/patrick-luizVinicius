@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title> CatBag </title>
+        <title> CatBag - Catline </title>
         <meta charset="utf-8">
         <meta name="Author" content="Luiz Vinicius A. Pinheiro - 31477054">
         <meta name="Author" content="Patrick Andrade - 31527914">
@@ -15,7 +15,7 @@
         <?php include "includes/header.inc"; ?>
      
         
-        <div class="corpo">
+        <div class = "container">
             <h2>AQUI SERA A TIMELINE</h2>
         </div>
         

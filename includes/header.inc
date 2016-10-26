@@ -9,7 +9,7 @@
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li><a href="index.php">HOME</a></li>
         <li><a href="catline.php">CATLINE</a></li>
-        <li><a href="conta.php">CONTA</a></li>
+        <li><a href="entrar.php">CONTA</a></li>
         <li>
             <form action="http://google.com/search">
                 <input type="search" name="q" placeholder="Pesquisar...">
