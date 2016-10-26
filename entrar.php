@@ -27,15 +27,15 @@
                     
                     <p>
                     <label for="nome">Nome Completo:</label>
-                    <input id="nome" name="nome" type="text" size="25" required/>
+                    <input id="nome" name="nome" type="text" size="40" required/>
                     <br/>
                     
                     <label for="email">E-Mail:</label>
-                    <input id="email" name="email" type="email" size="25" required/>
+                    <input id="email" name="email" type="email" size="40" required/>
                     <br/>
                     
                     <label for="confirmarEmail">Confirmar E-Mail:</label>
-                    <input id="confirmarEmail" name="confirmarEmail" type="email" size="25" required/>
+                    <input id="confirmarEmail" name="confirmarEmail" type="email" size="40" required/>
                     <br/>
                     
                     <!--
@@ -49,6 +49,10 @@
                     </select>
                     <br/>
                     -->
+                    
+                    <label for="nome">Username:</label>
+                    <input id="username" name="username" type="text" size="25" required/>
+                    <br/>
                     
                     <label for="pass" required>Senha: </label>
                     <input type="password" id="pass" name="pass">

@@ -7,6 +7,7 @@
    $pass = $_POST["pass"];
    $confPass = $_POST["confPass"];
    $termos = $_POST["termos"];
+   $username = $_POST["username"];
    
    $erro = 0; 
    
@@ -26,7 +27,10 @@
     $mensagem = "As senhas não batem.<br>"; 
     $erro=1; 
    } 
-   
+   if (empty($username) OR strstr($username, ' ')==TRUE) { 
+    $mensagem = "Nome de Usuario invalido.<br>";  
+    $erro=1; 
+   } 
    
    if ($erro==0) { 
         $mensagem = "Você foi cadastrado com sucesso!";
