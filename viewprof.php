@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
 <?php
-    $capturar = $_COOKIE['usuario'];
+    $pid = $_GET['id'];
+    
     include"sqlconecta.php";
-    $resultado = "SELECT uID, username, info, prof FROM user WHERE username = '$capturar'";
+    $resultado = "SELECT uID, username, info, prof FROM user WHERE uID = '$pid'";
     $pega = mysqli_query($conexao,$resultado);
     $infos = mysqli_fetch_array($pega);
     
@@ -14,13 +15,12 @@
     else{$avatar = $infos['prof'];}
     
     $title = $infos['username'];
-    $view = $infos['uID'];
     
 ?>
 
 <html>
     <head>
-        <title> CatBag - Conta </title>
+        <title> CatBag - <?php echo($title) ?> </title>
         <meta charset="utf-8">
         <meta name="Author" content="Luiz Vinicius A. Pinheiro - 31477054">
         <meta name="Author" content="Patrick Andrade - 31527914">
@@ -41,28 +41,32 @@
               </div>
              
               <div class="col s8">
-                 <h3><?php echo($capturar); ?> </h3> 
+                 <h3><?php echo($infos['username']); ?> </h3> 
                  <br>
                  <br>
                  <p><?php echo($infos['info']); ?></p>
               </div>
               
             </div>
-        </div>
-        
-        <div class = 'container'>
-        <div class = "grey lighten-2">
-        <a href="viewprof.php?id=<?php echo($view) ?>"> Ver como visitante </a>
-        <br>
-        <a href="altpic.php"> Alterar Avatar </a>
-        <br>
-        <a href="altdesc.php"> Editar Descrição </a>
-        <br>
-        <a href="logout.php"> Log Out </a>
-        </div>
+            <br>
+            <div = "container">
+                <h4>Posts: </h4>
+                <?php
+                include"sqlconecta.php";
+                $line = "SELECT pID, uID, user, titulo, pic FROM post WHERE uID = '$pid' ORDER BY pID DESC";
+                $result = mysqli_query($conexao,$line);
+                
+                if($result){
+                    while ($row = mysqli_fetch_array($result)){
+                        echo '<div = "container">';
+                             echo '<h5><a href="viewpost.php?id='.$row['pID'].'" class="orange-text text-darken-4">'.$row['titulo']. '</a></h5>';
+                        echo '</div>';
+                        
+                    }}
+                ?>
+            </div>
+            
         </div>
         <?php include "includes/footer.inc"; ?>
     </body>
-
-
 </html>

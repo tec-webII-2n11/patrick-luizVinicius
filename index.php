@@ -16,7 +16,9 @@
      
         
         <div class = "container">
-            <h2>AQUI É A HOME!</h2>
+            <h3 class="brown-text text-darken-4">Postagens do Mês:</h3>
+            
+
         </div>
         
         

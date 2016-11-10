@@ -16,11 +16,29 @@
      
         
         <div class = "container">
-            <div>
-            <h5>Log In</h5>
-            </div>
-            <br>
-            <br>
+                <div class="row">
+                  <div class="col s12">
+                    <div class="card-panel grey lighten-3">
+                      <span class="text">
+                        <h5>Log In</h5>
+                        
+                        <form method="POST" action="login.php">
+                            <label for="username">Username:</label>
+                            <input id="username" name="username" type="text" size="25" required/>
+                            
+                            <label for="pass" required>Senha: </label>
+                            <input type="password" id="pass" name="pass">
+                            </br>
+                            
+                            <input class="waves-effect waves-light btn" type="submit" value="Entrar"/>
+                        </form>
+                    
+                    </div>
+                    </span>
+                    </div>
+                  </div>
+                
+    
             <div>
                 <h5>Não esta cadastrado ainda?</h5>
                 <form action="cadastrar.php" method="POST">
@@ -38,18 +56,6 @@
                     <input id="confirmarEmail" name="confirmarEmail" type="email" size="40" required/>
                     <br/>
                     
-                    <!--
-                    <label for="birth">Nascimento:</label>
-                    
-                    <label for="sexo">Sexo:</label>
-                    <select id="sexo" name="sexo" required>
-                        <option value="" selected disabled>Selecione o Sexo</option>
-                        <option value="feminino">Feminino</option>
-                        <option value="masculino">Masculino</option>
-                    </select>
-                    <br/>
-                    -->
-                    
                     <label for="nome">Username:</label>
                     <input id="username" name="username" type="text" size="25" required/>
                     <br/>
@@ -63,8 +69,9 @@
                     </br>
                     
                     <input type="checkbox" name="termos" id="termos" required>
-                    <label for="termos">Li e concordo com o regulamento</label>
+                    <label for="termos">Li e concordo com o <a href="termos.php">regulamento</a></label>
                     </br>
+                    <br>
                     
                     <input class="waves-effect waves-light btn" type="submit" value="Cadastrar"/>
                 </form>
