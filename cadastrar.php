@@ -6,8 +6,8 @@
    $nome = strip_tags($_POST["nome"]); 
    $email = strip_tags($_POST["email"]); 
    $confirmarEmail = strip_tags($_POST["confirmarEmail"]);
-   $pass = strip_tags($_POST["pass"]);
-   $confPass = strip_tags($_POST["confPass"]);
+   $pass = md5(strip_tags($_POST["pass"]));
+   $confPass = md5(strip_tags($_POST["confPass"]));
    $termos = strip_tags($_POST["termos"]);
    $username = strip_tags($_POST["username"]);
    

@@ -19,7 +19,7 @@
             <br>
             <?php
                 include"sqlconecta.php";
-                $line = "SELECT pID, uID, user, titulo, pic FROM post ORDER BY pID DESC";
+                $line = "SELECT pID, uID, user, titulo, status, pic FROM post WHERE status != 'n' ORDER BY pID DESC";
                 $result = mysqli_query($conexao,$line);
                 
                 if($result){

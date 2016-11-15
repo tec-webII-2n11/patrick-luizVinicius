@@ -74,7 +74,7 @@
             
             <?php
                 include"sqlconecta.php";
-                $ccc = "SELECT cID, pID, uID, user, texto FROM comen WHERE pID = '$pid' ORDER BY cID DESC";
+                $ccc = "SELECT cID, pID, uID, user, texto, status FROM comen WHERE status != 'n' AND pID = '$pid' ORDER BY cID DESC";
                 $seila = mysqli_query($conexao,$ccc);
                 
                 if($seila){

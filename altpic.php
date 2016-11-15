@@ -10,7 +10,7 @@
 
 <html>
     <head>
-        <title> CatBag - Alterar Descrição </title>
+        <title> CatBag - Alterar Avatar </title>
         <meta charset="utf-8">
         <meta name="Author" content="Luiz Vinicius A. Pinheiro - 31477054">
         <meta name="Author" content="Patrick Andrade - 31527914">

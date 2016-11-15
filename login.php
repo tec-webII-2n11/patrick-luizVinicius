@@ -2,7 +2,7 @@
     include"sqlconecta.php";
     
     $username = strip_tags($_POST["username"]);
-    $pass = strip_tags($_POST["pass"]);
+    $pass = md5(strip_tags($_POST["pass"]));
     
     $erro = 0;
     
@@ -52,7 +52,11 @@
         <div class="row">
           <div class="col s12">
             <div class="card-panel grey lighten-3">
-              <span class="text"><?php echo($mensagem); ?>
+              <span class="text"><?php echo($mensagem);
+              echo($pass);
+              echo('<br>');
+              echo($array2['pass']);
+              ?>
               </span>
             </div>
           </div>

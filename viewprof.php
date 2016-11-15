@@ -37,7 +37,7 @@
          <div class = "container">
             <div class="row">
               <div class="col s4">
-                  <img src="<?php echo($avatar); ?>" alt="<?php echo($title); ?>" width="256px" class="circle responsive-img z-depth-2">
+                  <img src="<?php echo($avatar); ?>" alt="<?php echo($title); ?>" width="256" height="256" class="circle responsive-img z-depth-2">
               </div>
              
               <div class="col s8">
@@ -53,7 +53,7 @@
                 <h4>Posts: </h4>
                 <?php
                 include"sqlconecta.php";
-                $line = "SELECT pID, uID, user, titulo, pic FROM post WHERE uID = '$pid' ORDER BY pID DESC";
+                $line = "SELECT pID, uID, user, titulo, status, pic FROM post WHERE status != 'n' AND uID = '$pid' ORDER BY pID DESC";
                 $result = mysqli_query($conexao,$line);
                 
                 if($result){
