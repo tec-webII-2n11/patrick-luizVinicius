@@ -12,7 +12,7 @@
     $userdata = $array['username'];
     
     if($userdata == $username){
-        $selectpas = "SELECT pass FROM user WHERE pass = '$pass'";
+        $selectpas = "SELECT pass FROM user WHERE username = '$username'";
         $select2 = mysqli_query($conexao,$selectpas);
         $array2 = mysqli_fetch_array($select2);
         $passdata = $array2['pass'];
